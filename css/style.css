@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: #1D1E23;
+}
+
+.container{
+    width: 1200px;
+    margin: 250px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+h4{
+    color: green;
+    font-size: 24px;
+    display: none;
+}
+small{
+font-size: 18px;
+display: none;
+    color: rgb(194, 20, 20);
+}
+
+.box{
+    border-radius:15px ;
+    -webkit-border-radius:15px ;
+    -moz-border-radius:15px ;
+    -ms-border-radius:15px ;
+    -o-border-radius:15px ;
+    border: 1px solid #737373;
+    padding: 50px 120px;
+}
+
+
+ .box-bottom{
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.guessImg{
+    width: 4%;
+    position: absolute;
+    top: 204px;
+    border: 1px solid #737373;
+    border-radius: 50%;
+}
+
+input{
+    margin-top: 25px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px 20px;
+    border: 1px solid #737373;
+    background: transparent;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+input:focus{
+    color: #fff;
+}
+button{
+    background: green;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.twoBtn , .threeBtn , .fourBtn{
+    display: none;
+}
+
+.playerTwoInput ,.playerThreeInput , .playerFourInput{
+    display: none;
+}
