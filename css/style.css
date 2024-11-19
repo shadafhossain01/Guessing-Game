@@ -17,7 +17,7 @@ background-color: #1D1E23;
     flex-direction: column;
 }
 
-h1{
+h1,h5{
     font-size: 45px;
     color: #fff;
     font-weight: 500;
